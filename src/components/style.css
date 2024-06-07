@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    background-color: whitesmoke;
+    padding: 0;
+    border-radius: 20px;
+}
+#eng_sloka{
+    font-size: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    gap: 2px;
+    display: flex;
+    margin-bottom: 0px;
+}
+.but{
+    overlay: none;
+    background-color: white;
+    border-style: none;
+    padding: 7px;
+    cursor: pointer;
+}
+.but:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+span{
+    margin-right: 20px;
+}
+.table{
+    /*border: 0.001px black solid;*/
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    width: 25%;
+    background-color: white;
+    border-radius: 20px;
+}
+.content{
+    width: 76%;
+    margin-top: -20px;
+}
+.aside-section{
+    display: flex;
+    gap: 50px;
+}
+.small{
+    text-align: center;
+    color: black;
+    border: 0.001px solid black;
+    padding: 0px;
+    float: left;
+    margin-top: 20px;
+}
+.container{
+    display: grid;
+}
+.aside-section{
+    padding: 10px;
+    float: left;
+    margin-top: 20px;
+}
