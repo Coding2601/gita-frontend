@@ -164,6 +164,7 @@ export default {
       },{
         withCredentials: true
       }).then((res) => {
+        console.log(res.headers)
         if (res.data.message === 'success') {
           this.$router.push('/home')
         } else if (res.data.message === 'User not found') {
